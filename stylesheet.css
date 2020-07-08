@@ -55,7 +55,7 @@ header{
 
 .content{
     margin-top: 50px;
-    height: 500px;
+    
 }
 .section-title{
     font-size: 28px;
@@ -66,31 +66,40 @@ header{
 
 .profile-picture{
     float: left;
-    padding: 20px 30px;
-    width: 25%;
+    padding: 20px 0px;
+}
+.content-profile{
+    overflow: hidden;
+    width:100%
+}
+.profile-text{
+    overflow: hidden;
 }
 .profile-text-name{
     float: left;
-    padding: 50px 100px 20px 100px;
+    padding: 50px 25px 20px 25px;
 }
 .profile-text-study{
     float: left;
-    padding: 20px 100px;    
+    padding: 50px 25px 20px 25px;   
 }
 
 .skill-os{
-    width: 1070px;
-    padding: 20px 50px;
+    padding: 20px 0px;
 }
 .skill-os h1{
     padding: 15px 0;
 }
-.skill{
-    float: left;
+
+.skills{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
 }
+
 .skill-language{
-    width: 1070px;
-    padding: 20px 50px;
+    width: 100%;
+    padding: 20px 0px;
     float: left;
 }
 .skill-icon{

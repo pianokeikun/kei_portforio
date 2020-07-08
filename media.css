@@ -1,0 +1,19 @@
+/* スマホ縦 */
+@media screen and (max-width: 500px){
+
+    .container{
+        margin: 0 50px;
+    }
+
+    .profile-picture{
+        display: block;
+        float: none;
+        clear:both;
+        margin: auto;
+    }
+
+}
+/* タブレット縦 */
+@media screen and(max-width: 900px){
+
+}
